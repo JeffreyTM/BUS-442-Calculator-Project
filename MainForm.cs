@@ -39,7 +39,7 @@ namespace CalculatorProject
                     Sort(sortedList);
                 }
             }
-            //use for clear event handler
+            //use for display file event handler
             //foreach (int num in sortedList)
             //{
             //    displayListBox.Items.Add(num);
