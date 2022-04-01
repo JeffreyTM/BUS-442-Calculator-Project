@@ -206,5 +206,10 @@ namespace CalculatorProject
         {
 
         }
+
+        private void displayFileButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

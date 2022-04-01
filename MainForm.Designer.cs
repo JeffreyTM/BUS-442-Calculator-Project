@@ -528,6 +528,7 @@
             this.displayFileButton.TabIndex = 2;
             this.displayFileButton.Text = "&Display File Values";
             this.displayFileButton.UseVisualStyleBackColor = true;
+            this.displayFileButton.Click += new System.EventHandler(this.displayFileButton_Click);
             // 
             // clearButton
             // 
