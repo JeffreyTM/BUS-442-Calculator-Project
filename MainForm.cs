@@ -39,6 +39,7 @@ namespace CalculatorProject
                     Sort(sortedList);
                 }
             }
+            //use for clear event handler
             //foreach (int num in sortedList)
             //{
             //    displayListBox.Items.Add(num);

@@ -9,3 +9,14 @@ C:\Users\Visio\Source\Repos\Calculator-Project\obj\Debug\CalculatorProject.cspro
 C:\Users\Visio\Source\Repos\Calculator-Project\obj\Debug\CalculatorProject.csproj.CoreCompileInputs.cache
 C:\Users\Visio\Source\Repos\Calculator-Project\obj\Debug\CalculatorProject.exe
 C:\Users\Visio\Source\Repos\Calculator-Project\obj\Debug\CalculatorProject.pdb
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\bin\Debug\CalculatorProject.exe.config
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\bin\Debug\CalculatorProject.exe
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\bin\Debug\CalculatorProject.pdb
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.csproj.AssemblyReference.cache
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.MainForm.resources
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.Properties.Resources.resources
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.csproj.GenerateResource.cache
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.csproj.CoreCompileInputs.cache
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.exe
+C:\Users\Visio\Source\Repos\BUS-442-Calculator-Project\obj\Debug\CalculatorProject.pdb
