@@ -93,8 +93,11 @@ namespace CalculatorProject
             {
                 total += Math.Pow(i - sortedList.Average(), 2);
             }
-            total = total / sortedList.Count - 1;
+            total /= sortedList.Count - 1;
+            //total = total / sortedList.Count - 1;
             total = Math.Sqrt(total);
+            
+            
             displayListBox.Items.Add(total);
         }
 
