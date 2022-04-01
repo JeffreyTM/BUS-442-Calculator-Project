@@ -37,7 +37,7 @@
             this.medianButton = new System.Windows.Forms.Button();
             this.standardDeviationButton = new System.Windows.Forms.Button();
             this.rangeButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.meanButton = new System.Windows.Forms.Button();
             this.countButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.fibonacciButton = new System.Windows.Forms.Button();
@@ -48,6 +48,19 @@
             this.factorialButton = new System.Windows.Forms.Button();
             this.applicationLabel = new System.Windows.Forms.Label();
             this.rightPanel = new System.Windows.Forms.Panel();
+            this.threeButton = new System.Windows.Forms.Button();
+            this.twoButton = new System.Windows.Forms.Button();
+            this.oneButton = new System.Windows.Forms.Button();
+            this.sixButton = new System.Windows.Forms.Button();
+            this.fiveButton = new System.Windows.Forms.Button();
+            this.fourButton = new System.Windows.Forms.Button();
+            this.nineButton = new System.Windows.Forms.Button();
+            this.eightButton = new System.Windows.Forms.Button();
+            this.sevenButton = new System.Windows.Forms.Button();
+            this.clearEverythingButton = new System.Windows.Forms.Button();
+            this.zeroButton = new System.Windows.Forms.Button();
+            this.clearLineButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.yTextBox = new System.Windows.Forms.TextBox();
             this.xTextBox = new System.Windows.Forms.TextBox();
             this.yLabel = new System.Windows.Forms.Label();
@@ -58,24 +71,11 @@
             this.exitButton = new System.Windows.Forms.Button();
             this.leftPanel = new System.Windows.Forms.Panel();
             this.displayListBox = new System.Windows.Forms.ListBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.clearEverythingButton = new System.Windows.Forms.Button();
-            this.zeroButton = new System.Windows.Forms.Button();
-            this.clearLineButton = new System.Windows.Forms.Button();
-            this.nineButton = new System.Windows.Forms.Button();
-            this.eightButton = new System.Windows.Forms.Button();
-            this.sevenButton = new System.Windows.Forms.Button();
-            this.sixButton = new System.Windows.Forms.Button();
-            this.fiveButton = new System.Windows.Forms.Button();
-            this.fourButton = new System.Windows.Forms.Button();
-            this.threeButton = new System.Windows.Forms.Button();
-            this.twoButton = new System.Windows.Forms.Button();
-            this.oneButton = new System.Windows.Forms.Button();
             this.statisticalGroupBox.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.rightPanel.SuspendLayout();
-            this.leftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.leftPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // statisticalGroupBox
@@ -87,7 +87,7 @@
             this.statisticalGroupBox.Controls.Add(this.medianButton);
             this.statisticalGroupBox.Controls.Add(this.standardDeviationButton);
             this.statisticalGroupBox.Controls.Add(this.rangeButton);
-            this.statisticalGroupBox.Controls.Add(this.button2);
+            this.statisticalGroupBox.Controls.Add(this.meanButton);
             this.statisticalGroupBox.Controls.Add(this.countButton);
             this.statisticalGroupBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statisticalGroupBox.Location = new System.Drawing.Point(6, 284);
@@ -108,6 +108,7 @@
             this.sumButton.TabIndex = 8;
             this.sumButton.Text = "S&um";
             this.sumButton.UseVisualStyleBackColor = true;
+            this.sumButton.Click += new System.EventHandler(this.sumButton_Click);
             // 
             // modeButton
             // 
@@ -118,6 +119,7 @@
             this.modeButton.TabIndex = 7;
             this.modeButton.Text = "M&ode";
             this.modeButton.UseVisualStyleBackColor = true;
+            this.modeButton.Click += new System.EventHandler(this.modeButton_Click);
             // 
             // minButton
             // 
@@ -128,6 +130,7 @@
             this.minButton.TabIndex = 6;
             this.minButton.Text = "M&in";
             this.minButton.UseVisualStyleBackColor = true;
+            this.minButton.Click += new System.EventHandler(this.minButton_Click);
             // 
             // maxButton
             // 
@@ -138,6 +141,7 @@
             this.maxButton.TabIndex = 5;
             this.maxButton.Text = "M&ax";
             this.maxButton.UseVisualStyleBackColor = true;
+            this.maxButton.Click += new System.EventHandler(this.maxButton_Click);
             // 
             // medianButton
             // 
@@ -148,6 +152,7 @@
             this.medianButton.TabIndex = 4;
             this.medianButton.Text = "M&edian";
             this.medianButton.UseVisualStyleBackColor = true;
+            this.medianButton.Click += new System.EventHandler(this.medianButton_Click);
             // 
             // standardDeviationButton
             // 
@@ -158,6 +163,7 @@
             this.standardDeviationButton.TabIndex = 3;
             this.standardDeviationButton.Text = "S&tandard Deviation";
             this.standardDeviationButton.UseVisualStyleBackColor = true;
+            this.standardDeviationButton.Click += new System.EventHandler(this.standardDeviationButton_Click);
             // 
             // rangeButton
             // 
@@ -168,16 +174,18 @@
             this.rangeButton.TabIndex = 2;
             this.rangeButton.Text = "&Range";
             this.rangeButton.UseVisualStyleBackColor = true;
+            this.rangeButton.Click += new System.EventHandler(this.rangeButton_Click);
             // 
-            // button2
+            // meanButton
             // 
-            this.button2.Location = new System.Drawing.Point(213, 35);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 73);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "&Mean";
-            this.button2.UseVisualStyleBackColor = true;
+            this.meanButton.Location = new System.Drawing.Point(213, 35);
+            this.meanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.meanButton.Name = "meanButton";
+            this.meanButton.Size = new System.Drawing.Size(165, 73);
+            this.meanButton.TabIndex = 1;
+            this.meanButton.Text = "&Mean";
+            this.meanButton.UseVisualStyleBackColor = true;
+            this.meanButton.Click += new System.EventHandler(this.meanButton_Click);
             // 
             // countButton
             // 
@@ -188,6 +196,7 @@
             this.countButton.TabIndex = 0;
             this.countButton.Text = "C&ount";
             this.countButton.UseVisualStyleBackColor = true;
+            this.countButton.Click += new System.EventHandler(this.countButton_Click);
             // 
             // groupBox2
             // 
@@ -268,6 +277,7 @@
             this.factorialButton.TabIndex = 1;
             this.factorialButton.Text = "x&!";
             this.factorialButton.UseVisualStyleBackColor = true;
+            this.factorialButton.Click += new System.EventHandler(this.factorialButton_Click);
             // 
             // applicationLabel
             // 
@@ -309,6 +319,161 @@
             this.rightPanel.Name = "rightPanel";
             this.rightPanel.Size = new System.Drawing.Size(466, 806);
             this.rightPanel.TabIndex = 3;
+            // 
+            // threeButton
+            // 
+            this.threeButton.BackColor = System.Drawing.Color.Black;
+            this.threeButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.threeButton.Location = new System.Drawing.Point(305, 107);
+            this.threeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.threeButton.Name = "threeButton";
+            this.threeButton.Size = new System.Drawing.Size(109, 92);
+            this.threeButton.TabIndex = 40;
+            this.threeButton.Text = "3";
+            this.threeButton.UseVisualStyleBackColor = false;
+            // 
+            // twoButton
+            // 
+            this.twoButton.BackColor = System.Drawing.Color.Black;
+            this.twoButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.twoButton.Location = new System.Drawing.Point(178, 107);
+            this.twoButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.twoButton.Name = "twoButton";
+            this.twoButton.Size = new System.Drawing.Size(109, 92);
+            this.twoButton.TabIndex = 39;
+            this.twoButton.Text = "2";
+            this.twoButton.UseVisualStyleBackColor = false;
+            // 
+            // oneButton
+            // 
+            this.oneButton.BackColor = System.Drawing.Color.Black;
+            this.oneButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.oneButton.Location = new System.Drawing.Point(52, 107);
+            this.oneButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.oneButton.Name = "oneButton";
+            this.oneButton.Size = new System.Drawing.Size(109, 92);
+            this.oneButton.TabIndex = 38;
+            this.oneButton.Text = "1";
+            this.oneButton.UseVisualStyleBackColor = false;
+            // 
+            // sixButton
+            // 
+            this.sixButton.BackColor = System.Drawing.Color.Black;
+            this.sixButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.sixButton.Location = new System.Drawing.Point(305, 207);
+            this.sixButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sixButton.Name = "sixButton";
+            this.sixButton.Size = new System.Drawing.Size(109, 92);
+            this.sixButton.TabIndex = 37;
+            this.sixButton.Text = "6";
+            this.sixButton.UseVisualStyleBackColor = false;
+            // 
+            // fiveButton
+            // 
+            this.fiveButton.BackColor = System.Drawing.Color.Black;
+            this.fiveButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.fiveButton.Location = new System.Drawing.Point(178, 207);
+            this.fiveButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.fiveButton.Name = "fiveButton";
+            this.fiveButton.Size = new System.Drawing.Size(109, 92);
+            this.fiveButton.TabIndex = 36;
+            this.fiveButton.Text = "5";
+            this.fiveButton.UseVisualStyleBackColor = false;
+            // 
+            // fourButton
+            // 
+            this.fourButton.BackColor = System.Drawing.Color.Black;
+            this.fourButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.fourButton.Location = new System.Drawing.Point(52, 207);
+            this.fourButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.fourButton.Name = "fourButton";
+            this.fourButton.Size = new System.Drawing.Size(109, 92);
+            this.fourButton.TabIndex = 35;
+            this.fourButton.Text = "4";
+            this.fourButton.UseVisualStyleBackColor = false;
+            // 
+            // nineButton
+            // 
+            this.nineButton.BackColor = System.Drawing.Color.Black;
+            this.nineButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.nineButton.Location = new System.Drawing.Point(305, 307);
+            this.nineButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nineButton.Name = "nineButton";
+            this.nineButton.Size = new System.Drawing.Size(109, 92);
+            this.nineButton.TabIndex = 34;
+            this.nineButton.Text = "9";
+            this.nineButton.UseVisualStyleBackColor = false;
+            // 
+            // eightButton
+            // 
+            this.eightButton.BackColor = System.Drawing.Color.Black;
+            this.eightButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.eightButton.Location = new System.Drawing.Point(178, 307);
+            this.eightButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.eightButton.Name = "eightButton";
+            this.eightButton.Size = new System.Drawing.Size(109, 92);
+            this.eightButton.TabIndex = 33;
+            this.eightButton.Text = "8";
+            this.eightButton.UseVisualStyleBackColor = false;
+            // 
+            // sevenButton
+            // 
+            this.sevenButton.BackColor = System.Drawing.Color.Black;
+            this.sevenButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.sevenButton.Location = new System.Drawing.Point(52, 307);
+            this.sevenButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sevenButton.Name = "sevenButton";
+            this.sevenButton.Size = new System.Drawing.Size(109, 92);
+            this.sevenButton.TabIndex = 32;
+            this.sevenButton.Text = "7";
+            this.sevenButton.UseVisualStyleBackColor = false;
+            // 
+            // clearEverythingButton
+            // 
+            this.clearEverythingButton.BackColor = System.Drawing.Color.DarkRed;
+            this.clearEverythingButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.clearEverythingButton.Location = new System.Drawing.Point(305, 407);
+            this.clearEverythingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.clearEverythingButton.Name = "clearEverythingButton";
+            this.clearEverythingButton.Size = new System.Drawing.Size(109, 92);
+            this.clearEverythingButton.TabIndex = 31;
+            this.clearEverythingButton.Text = "CE";
+            this.clearEverythingButton.UseVisualStyleBackColor = false;
+            // 
+            // zeroButton
+            // 
+            this.zeroButton.BackColor = System.Drawing.Color.Black;
+            this.zeroButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.zeroButton.Location = new System.Drawing.Point(180, 407);
+            this.zeroButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.zeroButton.Name = "zeroButton";
+            this.zeroButton.Size = new System.Drawing.Size(109, 92);
+            this.zeroButton.TabIndex = 30;
+            this.zeroButton.Text = "0";
+            this.zeroButton.UseVisualStyleBackColor = false;
+            // 
+            // clearLineButton
+            // 
+            this.clearLineButton.BackColor = System.Drawing.Color.DarkRed;
+            this.clearLineButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.clearLineButton.Location = new System.Drawing.Point(52, 407);
+            this.clearLineButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.clearLineButton.Name = "clearLineButton";
+            this.clearLineButton.Size = new System.Drawing.Size(109, 92);
+            this.clearLineButton.TabIndex = 29;
+            this.clearLineButton.Text = "C";
+            this.clearLineButton.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(180, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(107, 73);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
             // 
             // yTextBox
             // 
@@ -376,6 +541,7 @@
             // 
             // exitButton
             // 
+            this.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.exitButton.Location = new System.Drawing.Point(5, 733);
             this.exitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.exitButton.Name = "exitButton";
@@ -408,161 +574,6 @@
             this.displayListBox.Size = new System.Drawing.Size(589, 191);
             this.displayListBox.TabIndex = 3;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(180, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 73);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
-            // clearEverythingButton
-            // 
-            this.clearEverythingButton.BackColor = System.Drawing.Color.DarkRed;
-            this.clearEverythingButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.clearEverythingButton.Location = new System.Drawing.Point(305, 407);
-            this.clearEverythingButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.clearEverythingButton.Name = "clearEverythingButton";
-            this.clearEverythingButton.Size = new System.Drawing.Size(109, 92);
-            this.clearEverythingButton.TabIndex = 31;
-            this.clearEverythingButton.Text = "CE";
-            this.clearEverythingButton.UseVisualStyleBackColor = false;
-            // 
-            // zeroButton
-            // 
-            this.zeroButton.BackColor = System.Drawing.Color.Black;
-            this.zeroButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.zeroButton.Location = new System.Drawing.Point(180, 407);
-            this.zeroButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.zeroButton.Name = "zeroButton";
-            this.zeroButton.Size = new System.Drawing.Size(109, 92);
-            this.zeroButton.TabIndex = 30;
-            this.zeroButton.Text = "0";
-            this.zeroButton.UseVisualStyleBackColor = false;
-            // 
-            // clearLineButton
-            // 
-            this.clearLineButton.BackColor = System.Drawing.Color.DarkRed;
-            this.clearLineButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.clearLineButton.Location = new System.Drawing.Point(52, 407);
-            this.clearLineButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.clearLineButton.Name = "clearLineButton";
-            this.clearLineButton.Size = new System.Drawing.Size(109, 92);
-            this.clearLineButton.TabIndex = 29;
-            this.clearLineButton.Text = "C";
-            this.clearLineButton.UseVisualStyleBackColor = false;
-            // 
-            // nineButton
-            // 
-            this.nineButton.BackColor = System.Drawing.Color.Black;
-            this.nineButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.nineButton.Location = new System.Drawing.Point(305, 307);
-            this.nineButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.nineButton.Name = "nineButton";
-            this.nineButton.Size = new System.Drawing.Size(109, 92);
-            this.nineButton.TabIndex = 34;
-            this.nineButton.Text = "9";
-            this.nineButton.UseVisualStyleBackColor = false;
-            // 
-            // eightButton
-            // 
-            this.eightButton.BackColor = System.Drawing.Color.Black;
-            this.eightButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.eightButton.Location = new System.Drawing.Point(178, 307);
-            this.eightButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.eightButton.Name = "eightButton";
-            this.eightButton.Size = new System.Drawing.Size(109, 92);
-            this.eightButton.TabIndex = 33;
-            this.eightButton.Text = "8";
-            this.eightButton.UseVisualStyleBackColor = false;
-            // 
-            // sevenButton
-            // 
-            this.sevenButton.BackColor = System.Drawing.Color.Black;
-            this.sevenButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.sevenButton.Location = new System.Drawing.Point(52, 307);
-            this.sevenButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sevenButton.Name = "sevenButton";
-            this.sevenButton.Size = new System.Drawing.Size(109, 92);
-            this.sevenButton.TabIndex = 32;
-            this.sevenButton.Text = "7";
-            this.sevenButton.UseVisualStyleBackColor = false;
-            // 
-            // sixButton
-            // 
-            this.sixButton.BackColor = System.Drawing.Color.Black;
-            this.sixButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.sixButton.Location = new System.Drawing.Point(305, 207);
-            this.sixButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sixButton.Name = "sixButton";
-            this.sixButton.Size = new System.Drawing.Size(109, 92);
-            this.sixButton.TabIndex = 37;
-            this.sixButton.Text = "6";
-            this.sixButton.UseVisualStyleBackColor = false;
-            // 
-            // fiveButton
-            // 
-            this.fiveButton.BackColor = System.Drawing.Color.Black;
-            this.fiveButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.fiveButton.Location = new System.Drawing.Point(178, 207);
-            this.fiveButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.fiveButton.Name = "fiveButton";
-            this.fiveButton.Size = new System.Drawing.Size(109, 92);
-            this.fiveButton.TabIndex = 36;
-            this.fiveButton.Text = "5";
-            this.fiveButton.UseVisualStyleBackColor = false;
-            // 
-            // fourButton
-            // 
-            this.fourButton.BackColor = System.Drawing.Color.Black;
-            this.fourButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.fourButton.Location = new System.Drawing.Point(52, 207);
-            this.fourButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.fourButton.Name = "fourButton";
-            this.fourButton.Size = new System.Drawing.Size(109, 92);
-            this.fourButton.TabIndex = 35;
-            this.fourButton.Text = "4";
-            this.fourButton.UseVisualStyleBackColor = false;
-            // 
-            // threeButton
-            // 
-            this.threeButton.BackColor = System.Drawing.Color.Black;
-            this.threeButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.threeButton.Location = new System.Drawing.Point(305, 107);
-            this.threeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.threeButton.Name = "threeButton";
-            this.threeButton.Size = new System.Drawing.Size(109, 92);
-            this.threeButton.TabIndex = 40;
-            this.threeButton.Text = "3";
-            this.threeButton.UseVisualStyleBackColor = false;
-            // 
-            // twoButton
-            // 
-            this.twoButton.BackColor = System.Drawing.Color.Black;
-            this.twoButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.twoButton.Location = new System.Drawing.Point(178, 107);
-            this.twoButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.twoButton.Name = "twoButton";
-            this.twoButton.Size = new System.Drawing.Size(109, 92);
-            this.twoButton.TabIndex = 39;
-            this.twoButton.Text = "2";
-            this.twoButton.UseVisualStyleBackColor = false;
-            // 
-            // oneButton
-            // 
-            this.oneButton.BackColor = System.Drawing.Color.Black;
-            this.oneButton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.oneButton.Location = new System.Drawing.Point(52, 107);
-            this.oneButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.oneButton.Name = "oneButton";
-            this.oneButton.Size = new System.Drawing.Size(109, 92);
-            this.oneButton.TabIndex = 38;
-            this.oneButton.Text = "1";
-            this.oneButton.UseVisualStyleBackColor = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -578,13 +589,13 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Scientific Calculator";
-            this.TopMost = true;
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.statisticalGroupBox.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.rightPanel.ResumeLayout(false);
             this.rightPanel.PerformLayout();
-            this.leftPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.leftPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -600,7 +611,7 @@
         private System.Windows.Forms.Button medianButton;
         private System.Windows.Forms.Button standardDeviationButton;
         private System.Windows.Forms.Button rangeButton;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button meanButton;
         private System.Windows.Forms.Button countButton;
         private System.Windows.Forms.Button factorialButton;
         private System.Windows.Forms.Button squareButton;
