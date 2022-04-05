@@ -29,24 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.statisticalGroupBox = new System.Windows.Forms.GroupBox();
-            this.sumButton = new System.Windows.Forms.Button();
-            this.modeButton = new System.Windows.Forms.Button();
-            this.minButton = new System.Windows.Forms.Button();
-            this.maxButton = new System.Windows.Forms.Button();
-            this.medianButton = new System.Windows.Forms.Button();
-            this.standardDeviationButton = new System.Windows.Forms.Button();
-            this.rangeButton = new System.Windows.Forms.Button();
-            this.meanButton = new System.Windows.Forms.Button();
-            this.countButton = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.fibonacciButton = new System.Windows.Forms.Button();
-            this.sumSquaresButton = new System.Windows.Forms.Button();
-            this.primeButton = new System.Windows.Forms.Button();
-            this.reciprocalButton = new System.Windows.Forms.Button();
-            this.squareButton = new System.Windows.Forms.Button();
-            this.factorialButton = new System.Windows.Forms.Button();
-            this.applicationLabel = new System.Windows.Forms.Label();
             this.rightPanel = new System.Windows.Forms.Panel();
             this.threeButton = new System.Windows.Forms.Button();
             this.twoButton = new System.Windows.Forms.Button();
@@ -69,276 +51,36 @@
             this.displayFileButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
-            this.leftPanel = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.factorialButton = new System.Windows.Forms.Button();
+            this.squareButton = new System.Windows.Forms.Button();
+            this.reciprocalButton = new System.Windows.Forms.Button();
+            this.primeButton = new System.Windows.Forms.Button();
+            this.sumSquaresButton = new System.Windows.Forms.Button();
+            this.fibonacciButton = new System.Windows.Forms.Button();
+            this.applicationLabel = new System.Windows.Forms.Label();
+            this.statisticalGroupBox = new System.Windows.Forms.GroupBox();
+            this.countButton = new System.Windows.Forms.Button();
+            this.meanButton = new System.Windows.Forms.Button();
+            this.rangeButton = new System.Windows.Forms.Button();
+            this.standardDeviationButton = new System.Windows.Forms.Button();
+            this.medianButton = new System.Windows.Forms.Button();
+            this.maxButton = new System.Windows.Forms.Button();
+            this.minButton = new System.Windows.Forms.Button();
+            this.modeButton = new System.Windows.Forms.Button();
+            this.sumButton = new System.Windows.Forms.Button();
             this.displayListBox = new System.Windows.Forms.ListBox();
-            this.statisticalGroupBox.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.leftPanel = new System.Windows.Forms.Panel();
             this.rightPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.statisticalGroupBox.SuspendLayout();
             this.leftPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // statisticalGroupBox
-            // 
-            this.statisticalGroupBox.Controls.Add(this.sumButton);
-            this.statisticalGroupBox.Controls.Add(this.modeButton);
-            this.statisticalGroupBox.Controls.Add(this.minButton);
-            this.statisticalGroupBox.Controls.Add(this.maxButton);
-            this.statisticalGroupBox.Controls.Add(this.medianButton);
-            this.statisticalGroupBox.Controls.Add(this.standardDeviationButton);
-            this.statisticalGroupBox.Controls.Add(this.rangeButton);
-            this.statisticalGroupBox.Controls.Add(this.meanButton);
-            this.statisticalGroupBox.Controls.Add(this.countButton);
-            this.statisticalGroupBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statisticalGroupBox.Location = new System.Drawing.Point(6, 284);
-            this.statisticalGroupBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.statisticalGroupBox.Name = "statisticalGroupBox";
-            this.statisticalGroupBox.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.statisticalGroupBox.Size = new System.Drawing.Size(589, 294);
-            this.statisticalGroupBox.TabIndex = 2;
-            this.statisticalGroupBox.TabStop = false;
-            this.statisticalGroupBox.Text = "Statistical Calculator";
-            // 
-            // sumButton
-            // 
-            this.sumButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.sumButton.Location = new System.Drawing.Point(397, 197);
-            this.sumButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sumButton.Name = "sumButton";
-            this.sumButton.Size = new System.Drawing.Size(165, 73);
-            this.sumButton.TabIndex = 8;
-            this.sumButton.Text = "S&um";
-            this.sumButton.UseVisualStyleBackColor = false;
-            this.sumButton.Click += new System.EventHandler(this.sumButton_Click);
-            this.sumButton.MouseLeave += new System.EventHandler(this.sumButton_MouseLeave);
-            this.sumButton.MouseHover += new System.EventHandler(this.sumButton_MouseHover);
-            // 
-            // modeButton
-            // 
-            this.modeButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.modeButton.Location = new System.Drawing.Point(213, 197);
-            this.modeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.modeButton.Name = "modeButton";
-            this.modeButton.Size = new System.Drawing.Size(165, 73);
-            this.modeButton.TabIndex = 7;
-            this.modeButton.Text = "M&ode";
-            this.modeButton.UseVisualStyleBackColor = false;
-            this.modeButton.Click += new System.EventHandler(this.modeButton_Click);
-            this.modeButton.MouseLeave += new System.EventHandler(this.modeButton_MouseLeave);
-            this.modeButton.MouseHover += new System.EventHandler(this.modeButton_MouseHover);
-            // 
-            // minButton
-            // 
-            this.minButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.minButton.Location = new System.Drawing.Point(28, 196);
-            this.minButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.minButton.Name = "minButton";
-            this.minButton.Size = new System.Drawing.Size(165, 73);
-            this.minButton.TabIndex = 6;
-            this.minButton.Text = "M&in";
-            this.minButton.UseVisualStyleBackColor = false;
-            this.minButton.Click += new System.EventHandler(this.minButton_Click);
-            this.minButton.MouseLeave += new System.EventHandler(this.minButton_MouseLeave);
-            this.minButton.MouseHover += new System.EventHandler(this.minButton_MouseHover);
-            // 
-            // maxButton
-            // 
-            this.maxButton.Location = new System.Drawing.Point(397, 116);
-            this.maxButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.maxButton.Name = "maxButton";
-            this.maxButton.Size = new System.Drawing.Size(165, 73);
-            this.maxButton.TabIndex = 5;
-            this.maxButton.Text = "M&ax";
-            this.maxButton.UseVisualStyleBackColor = true;
-            this.maxButton.Click += new System.EventHandler(this.maxButton_Click);
-            this.maxButton.MouseLeave += new System.EventHandler(this.maxButton_MouseLeave);
-            this.maxButton.MouseHover += new System.EventHandler(this.maxButton_MouseHover);
-            // 
-            // medianButton
-            // 
-            this.medianButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.medianButton.Location = new System.Drawing.Point(213, 116);
-            this.medianButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.medianButton.Name = "medianButton";
-            this.medianButton.Size = new System.Drawing.Size(165, 73);
-            this.medianButton.TabIndex = 4;
-            this.medianButton.Text = "M&edian";
-            this.medianButton.UseVisualStyleBackColor = false;
-            this.medianButton.Click += new System.EventHandler(this.medianButton_Click);
-            this.medianButton.MouseLeave += new System.EventHandler(this.medianButton_MouseLeave);
-            this.medianButton.MouseHover += new System.EventHandler(this.medianButton_MouseHover);
-            // 
-            // standardDeviationButton
-            // 
-            this.standardDeviationButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.standardDeviationButton.Location = new System.Drawing.Point(28, 116);
-            this.standardDeviationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.standardDeviationButton.Name = "standardDeviationButton";
-            this.standardDeviationButton.Size = new System.Drawing.Size(165, 73);
-            this.standardDeviationButton.TabIndex = 3;
-            this.standardDeviationButton.Text = "S&tandard Deviation";
-            this.standardDeviationButton.UseVisualStyleBackColor = false;
-            this.standardDeviationButton.Click += new System.EventHandler(this.standardDeviationButton_Click);
-            this.standardDeviationButton.MouseLeave += new System.EventHandler(this.standardDeviationButton_MouseLeave);
-            this.standardDeviationButton.MouseHover += new System.EventHandler(this.standardDeviationButton_MouseHover);
-            // 
-            // rangeButton
-            // 
-            this.rangeButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.rangeButton.Location = new System.Drawing.Point(397, 35);
-            this.rangeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.rangeButton.Name = "rangeButton";
-            this.rangeButton.Size = new System.Drawing.Size(165, 73);
-            this.rangeButton.TabIndex = 2;
-            this.rangeButton.Text = "&Range";
-            this.rangeButton.UseVisualStyleBackColor = false;
-            this.rangeButton.Click += new System.EventHandler(this.rangeButton_Click);
-            this.rangeButton.MouseLeave += new System.EventHandler(this.rangeButton_MouseLeave);
-            this.rangeButton.MouseHover += new System.EventHandler(this.rangeButton_MouseHover);
-            // 
-            // meanButton
-            // 
-            this.meanButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.meanButton.Location = new System.Drawing.Point(213, 35);
-            this.meanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.meanButton.Name = "meanButton";
-            this.meanButton.Size = new System.Drawing.Size(165, 73);
-            this.meanButton.TabIndex = 1;
-            this.meanButton.Text = "&Mean";
-            this.meanButton.UseVisualStyleBackColor = false;
-            this.meanButton.Click += new System.EventHandler(this.meanButton_Click);
-            this.meanButton.MouseLeave += new System.EventHandler(this.meanButton_MouseLeave);
-            this.meanButton.MouseHover += new System.EventHandler(this.meanButton_MouseHover);
-            // 
-            // countButton
-            // 
-            this.countButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.countButton.Location = new System.Drawing.Point(28, 35);
-            this.countButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.countButton.Name = "countButton";
-            this.countButton.Size = new System.Drawing.Size(165, 73);
-            this.countButton.TabIndex = 0;
-            this.countButton.Text = "C&ount";
-            this.countButton.UseVisualStyleBackColor = false;
-            this.countButton.Click += new System.EventHandler(this.countButton_Click);
-            this.countButton.MouseLeave += new System.EventHandler(this.countButton_MouseLeave);
-            this.countButton.MouseHover += new System.EventHandler(this.countButton_MouseHover);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.fibonacciButton);
-            this.groupBox2.Controls.Add(this.sumSquaresButton);
-            this.groupBox2.Controls.Add(this.primeButton);
-            this.groupBox2.Controls.Add(this.reciprocalButton);
-            this.groupBox2.Controls.Add(this.squareButton);
-            this.groupBox2.Controls.Add(this.factorialButton);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(6, 586);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(590, 207);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Scientific Calculator";
-            // 
-            // fibonacciButton
-            // 
-            this.fibonacciButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.fibonacciButton.Location = new System.Drawing.Point(397, 123);
-            this.fibonacciButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.fibonacciButton.Name = "fibonacciButton";
-            this.fibonacciButton.Size = new System.Drawing.Size(165, 73);
-            this.fibonacciButton.TabIndex = 5;
-            this.fibonacciButton.Text = "&Fibonacci (x)";
-            this.fibonacciButton.UseVisualStyleBackColor = false;
-            this.fibonacciButton.Click += new System.EventHandler(this.fibonacciButton_Click);
-            this.fibonacciButton.MouseLeave += new System.EventHandler(this.fibonacciButton_MouseLeave);
-            this.fibonacciButton.MouseHover += new System.EventHandler(this.fibonacciButton_MouseHover);
-            // 
-            // sumSquaresButton
-            // 
-            this.sumSquaresButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.sumSquaresButton.Location = new System.Drawing.Point(213, 123);
-            this.sumSquaresButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sumSquaresButton.Name = "sumSquaresButton";
-            this.sumSquaresButton.Size = new System.Drawing.Size(165, 73);
-            this.sumSquaresButton.TabIndex = 4;
-            this.sumSquaresButton.Text = "S&um of Squares (x...y)";
-            this.sumSquaresButton.UseVisualStyleBackColor = false;
-            this.sumSquaresButton.Click += new System.EventHandler(this.sumSquaresButton_Click);
-            this.sumSquaresButton.MouseLeave += new System.EventHandler(this.sumSquaresButton_MouseLeave);
-            this.sumSquaresButton.MouseHover += new System.EventHandler(this.sumSquaresButton_MouseHover);
-            // 
-            // primeButton
-            // 
-            this.primeButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.primeButton.Location = new System.Drawing.Point(28, 123);
-            this.primeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.primeButton.Name = "primeButton";
-            this.primeButton.Size = new System.Drawing.Size(165, 73);
-            this.primeButton.TabIndex = 3;
-            this.primeButton.Text = "&Prime (x...y)";
-            this.primeButton.UseVisualStyleBackColor = false;
-            this.primeButton.Click += new System.EventHandler(this.primeButton_Click);
-            this.primeButton.MouseLeave += new System.EventHandler(this.primeButton_MouseLeave);
-            this.primeButton.MouseHover += new System.EventHandler(this.primeButton_MouseHover);
-            // 
-            // reciprocalButton
-            // 
-            this.reciprocalButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.reciprocalButton.Location = new System.Drawing.Point(397, 33);
-            this.reciprocalButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.reciprocalButton.Name = "reciprocalButton";
-            this.reciprocalButton.Size = new System.Drawing.Size(165, 73);
-            this.reciprocalButton.TabIndex = 2;
-            this.reciprocalButton.Text = "1&/x";
-            this.reciprocalButton.UseVisualStyleBackColor = false;
-            this.reciprocalButton.Click += new System.EventHandler(this.reciprocalButton_Click);
-            this.reciprocalButton.MouseLeave += new System.EventHandler(this.reciprocalButton_MouseLeave);
-            this.reciprocalButton.MouseHover += new System.EventHandler(this.reciprocalButton_MouseHover);
-            // 
-            // squareButton
-            // 
-            this.squareButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.squareButton.Location = new System.Drawing.Point(213, 33);
-            this.squareButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.squareButton.Name = "squareButton";
-            this.squareButton.Size = new System.Drawing.Size(165, 73);
-            this.squareButton.TabIndex = 1;
-            this.squareButton.Text = "x&^y";
-            this.squareButton.UseVisualStyleBackColor = false;
-            this.squareButton.Click += new System.EventHandler(this.squareButton_Click);
-            this.squareButton.MouseLeave += new System.EventHandler(this.squareButton_MouseLeave);
-            this.squareButton.MouseHover += new System.EventHandler(this.squareButton_MouseHover);
-            // 
-            // factorialButton
-            // 
-            this.factorialButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.factorialButton.Location = new System.Drawing.Point(28, 33);
-            this.factorialButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.factorialButton.Name = "factorialButton";
-            this.factorialButton.Size = new System.Drawing.Size(165, 73);
-            this.factorialButton.TabIndex = 0;
-            this.factorialButton.Text = "x&!";
-            this.factorialButton.UseVisualStyleBackColor = false;
-            this.factorialButton.Click += new System.EventHandler(this.factorialButton_Click);
-            this.factorialButton.MouseLeave += new System.EventHandler(this.factorialButton_MouseLeave);
-            this.factorialButton.MouseHover += new System.EventHandler(this.factorialButton_MouseHover);
-            // 
-            // applicationLabel
-            // 
-            this.applicationLabel.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.applicationLabel.ForeColor = System.Drawing.Color.Maroon;
-            this.applicationLabel.Location = new System.Drawing.Point(45, 1);
-            this.applicationLabel.Name = "applicationLabel";
-            this.applicationLabel.Size = new System.Drawing.Size(505, 78);
-            this.applicationLabel.TabIndex = 0;
-            this.applicationLabel.Text = "Calculator App";
-            this.applicationLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // rightPanel
             // 
+            this.rightPanel.BackColor = System.Drawing.Color.LightGray;
             this.rightPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rightPanel.Controls.Add(this.threeButton);
             this.rightPanel.Controls.Add(this.twoButton);
@@ -380,6 +122,8 @@
             this.threeButton.Text = "3";
             this.threeButton.UseVisualStyleBackColor = false;
             this.threeButton.Click += new System.EventHandler(this.threeButton_Click);
+            this.threeButton.MouseLeave += new System.EventHandler(this.threeButton_MouseLeave);
+            this.threeButton.MouseHover += new System.EventHandler(this.threeButton_MouseHover);
             // 
             // twoButton
             // 
@@ -393,6 +137,8 @@
             this.twoButton.Text = "2";
             this.twoButton.UseVisualStyleBackColor = false;
             this.twoButton.Click += new System.EventHandler(this.twoButton_Click);
+            this.twoButton.MouseLeave += new System.EventHandler(this.twoButton_MouseLeave);
+            this.twoButton.MouseHover += new System.EventHandler(this.twoButton_MouseHover);
             // 
             // oneButton
             // 
@@ -406,6 +152,8 @@
             this.oneButton.Text = "1";
             this.oneButton.UseVisualStyleBackColor = false;
             this.oneButton.Click += new System.EventHandler(this.oneButton_Click);
+            this.oneButton.MouseLeave += new System.EventHandler(this.oneButton_MouseLeave);
+            this.oneButton.MouseHover += new System.EventHandler(this.oneButton_MouseHover);
             // 
             // sixButton
             // 
@@ -419,6 +167,8 @@
             this.sixButton.Text = "6";
             this.sixButton.UseVisualStyleBackColor = false;
             this.sixButton.Click += new System.EventHandler(this.sixButton_Click);
+            this.sixButton.MouseLeave += new System.EventHandler(this.sixButton_MouseLeave);
+            this.sixButton.MouseHover += new System.EventHandler(this.sixButton_MouseHover);
             // 
             // fiveButton
             // 
@@ -432,6 +182,8 @@
             this.fiveButton.Text = "5";
             this.fiveButton.UseVisualStyleBackColor = false;
             this.fiveButton.Click += new System.EventHandler(this.fiveButton_Click);
+            this.fiveButton.MouseLeave += new System.EventHandler(this.fiveButton_MouseLeave);
+            this.fiveButton.MouseHover += new System.EventHandler(this.fiveButton_MouseHover);
             // 
             // fourButton
             // 
@@ -445,6 +197,8 @@
             this.fourButton.Text = "4";
             this.fourButton.UseVisualStyleBackColor = false;
             this.fourButton.Click += new System.EventHandler(this.fourButton_Click);
+            this.fourButton.MouseLeave += new System.EventHandler(this.fourButton_MouseLeave);
+            this.fourButton.MouseHover += new System.EventHandler(this.fourButton_MouseHover);
             // 
             // nineButton
             // 
@@ -458,6 +212,8 @@
             this.nineButton.Text = "9";
             this.nineButton.UseVisualStyleBackColor = false;
             this.nineButton.Click += new System.EventHandler(this.nineButton_Click);
+            this.nineButton.MouseLeave += new System.EventHandler(this.nineButton_MouseLeave);
+            this.nineButton.MouseHover += new System.EventHandler(this.nineButton_MouseHover);
             // 
             // eightButton
             // 
@@ -471,6 +227,8 @@
             this.eightButton.Text = "8";
             this.eightButton.UseVisualStyleBackColor = false;
             this.eightButton.Click += new System.EventHandler(this.eightButton_Click);
+            this.eightButton.MouseLeave += new System.EventHandler(this.eightButton_MouseLeave);
+            this.eightButton.MouseHover += new System.EventHandler(this.eightButton_MouseHover);
             // 
             // sevenButton
             // 
@@ -484,6 +242,8 @@
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = false;
             this.sevenButton.Click += new System.EventHandler(this.sevenButton_Click);
+            this.sevenButton.MouseLeave += new System.EventHandler(this.sevenButton_MouseLeave);
+            this.sevenButton.MouseHover += new System.EventHandler(this.sevenButton_MouseHover);
             // 
             // clearLastValueButton
             // 
@@ -497,6 +257,8 @@
             this.clearLastValueButton.Text = "CE";
             this.clearLastValueButton.UseVisualStyleBackColor = false;
             this.clearLastValueButton.Click += new System.EventHandler(this.clearLastValueButton_Click);
+            this.clearLastValueButton.MouseLeave += new System.EventHandler(this.clearLastValueButton_MouseLeave);
+            this.clearLastValueButton.MouseHover += new System.EventHandler(this.clearLastValueButton_MouseHover);
             // 
             // zeroButton
             // 
@@ -510,6 +272,8 @@
             this.zeroButton.Text = "0";
             this.zeroButton.UseVisualStyleBackColor = false;
             this.zeroButton.Click += new System.EventHandler(this.zeroButton_Click);
+            this.zeroButton.MouseLeave += new System.EventHandler(this.zeroButton_MouseLeave);
+            this.zeroButton.MouseHover += new System.EventHandler(this.zeroButton_MouseHover);
             // 
             // clearTextBoxButton
             // 
@@ -523,10 +287,12 @@
             this.clearTextBoxButton.Text = "C";
             this.clearTextBoxButton.UseVisualStyleBackColor = false;
             this.clearTextBoxButton.Click += new System.EventHandler(this.clearTextBoxButton_Click);
+            this.clearTextBoxButton.MouseLeave += new System.EventHandler(this.clearTextBoxButton_MouseLeave);
+            this.clearTextBoxButton.MouseHover += new System.EventHandler(this.clearTextBoxButton_MouseHover);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::CalculatorProject.Properties.Resources.pisymbol;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(180, 6);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
@@ -632,19 +398,264 @@
             this.exitButton.MouseLeave += new System.EventHandler(this.exitButton_MouseLeave);
             this.exitButton.MouseHover += new System.EventHandler(this.exitButton_MouseHover);
             // 
-            // leftPanel
+            // groupBox2
             // 
-            this.leftPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.leftPanel.Controls.Add(this.displayListBox);
-            this.leftPanel.Controls.Add(this.statisticalGroupBox);
-            this.leftPanel.Controls.Add(this.applicationLabel);
-            this.leftPanel.Controls.Add(this.groupBox2);
-            this.leftPanel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.leftPanel.Location = new System.Drawing.Point(14, 14);
-            this.leftPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.leftPanel.Name = "leftPanel";
-            this.leftPanel.Size = new System.Drawing.Size(598, 806);
-            this.leftPanel.TabIndex = 0;
+            this.groupBox2.Controls.Add(this.fibonacciButton);
+            this.groupBox2.Controls.Add(this.sumSquaresButton);
+            this.groupBox2.Controls.Add(this.primeButton);
+            this.groupBox2.Controls.Add(this.reciprocalButton);
+            this.groupBox2.Controls.Add(this.squareButton);
+            this.groupBox2.Controls.Add(this.factorialButton);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(6, 586);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(590, 207);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Scientific Calculator";
+            // 
+            // factorialButton
+            // 
+            this.factorialButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.factorialButton.Location = new System.Drawing.Point(28, 33);
+            this.factorialButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.factorialButton.Name = "factorialButton";
+            this.factorialButton.Size = new System.Drawing.Size(165, 73);
+            this.factorialButton.TabIndex = 0;
+            this.factorialButton.Text = "x&!";
+            this.factorialButton.UseVisualStyleBackColor = false;
+            this.factorialButton.Click += new System.EventHandler(this.factorialButton_Click);
+            this.factorialButton.MouseLeave += new System.EventHandler(this.factorialButton_MouseLeave);
+            this.factorialButton.MouseHover += new System.EventHandler(this.factorialButton_MouseHover);
+            // 
+            // squareButton
+            // 
+            this.squareButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.squareButton.Location = new System.Drawing.Point(213, 33);
+            this.squareButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.squareButton.Name = "squareButton";
+            this.squareButton.Size = new System.Drawing.Size(165, 73);
+            this.squareButton.TabIndex = 1;
+            this.squareButton.Text = "x&^y";
+            this.squareButton.UseVisualStyleBackColor = false;
+            this.squareButton.Click += new System.EventHandler(this.squareButton_Click);
+            this.squareButton.MouseLeave += new System.EventHandler(this.squareButton_MouseLeave);
+            this.squareButton.MouseHover += new System.EventHandler(this.squareButton_MouseHover);
+            // 
+            // reciprocalButton
+            // 
+            this.reciprocalButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.reciprocalButton.Location = new System.Drawing.Point(397, 33);
+            this.reciprocalButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.reciprocalButton.Name = "reciprocalButton";
+            this.reciprocalButton.Size = new System.Drawing.Size(165, 73);
+            this.reciprocalButton.TabIndex = 2;
+            this.reciprocalButton.Text = "1&/x";
+            this.reciprocalButton.UseVisualStyleBackColor = false;
+            this.reciprocalButton.Click += new System.EventHandler(this.reciprocalButton_Click);
+            this.reciprocalButton.MouseLeave += new System.EventHandler(this.reciprocalButton_MouseLeave);
+            this.reciprocalButton.MouseHover += new System.EventHandler(this.reciprocalButton_MouseHover);
+            // 
+            // primeButton
+            // 
+            this.primeButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.primeButton.Location = new System.Drawing.Point(28, 123);
+            this.primeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.primeButton.Name = "primeButton";
+            this.primeButton.Size = new System.Drawing.Size(165, 73);
+            this.primeButton.TabIndex = 3;
+            this.primeButton.Text = "&Prime (x...y)";
+            this.primeButton.UseVisualStyleBackColor = false;
+            this.primeButton.Click += new System.EventHandler(this.primeButton_Click);
+            this.primeButton.MouseLeave += new System.EventHandler(this.primeButton_MouseLeave);
+            this.primeButton.MouseHover += new System.EventHandler(this.primeButton_MouseHover);
+            // 
+            // sumSquaresButton
+            // 
+            this.sumSquaresButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.sumSquaresButton.Location = new System.Drawing.Point(213, 123);
+            this.sumSquaresButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sumSquaresButton.Name = "sumSquaresButton";
+            this.sumSquaresButton.Size = new System.Drawing.Size(165, 73);
+            this.sumSquaresButton.TabIndex = 4;
+            this.sumSquaresButton.Text = "S&um of Squares (x...y)";
+            this.sumSquaresButton.UseVisualStyleBackColor = false;
+            this.sumSquaresButton.Click += new System.EventHandler(this.sumSquaresButton_Click);
+            this.sumSquaresButton.MouseLeave += new System.EventHandler(this.sumSquaresButton_MouseLeave);
+            this.sumSquaresButton.MouseHover += new System.EventHandler(this.sumSquaresButton_MouseHover);
+            // 
+            // fibonacciButton
+            // 
+            this.fibonacciButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.fibonacciButton.Location = new System.Drawing.Point(397, 123);
+            this.fibonacciButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.fibonacciButton.Name = "fibonacciButton";
+            this.fibonacciButton.Size = new System.Drawing.Size(165, 73);
+            this.fibonacciButton.TabIndex = 5;
+            this.fibonacciButton.Text = "&Fibonacci (x)";
+            this.fibonacciButton.UseVisualStyleBackColor = false;
+            this.fibonacciButton.Click += new System.EventHandler(this.fibonacciButton_Click);
+            this.fibonacciButton.MouseLeave += new System.EventHandler(this.fibonacciButton_MouseLeave);
+            this.fibonacciButton.MouseHover += new System.EventHandler(this.fibonacciButton_MouseHover);
+            // 
+            // applicationLabel
+            // 
+            this.applicationLabel.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.applicationLabel.ForeColor = System.Drawing.Color.Maroon;
+            this.applicationLabel.Location = new System.Drawing.Point(45, 1);
+            this.applicationLabel.Name = "applicationLabel";
+            this.applicationLabel.Size = new System.Drawing.Size(505, 78);
+            this.applicationLabel.TabIndex = 0;
+            this.applicationLabel.Text = "Calculator App";
+            this.applicationLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // statisticalGroupBox
+            // 
+            this.statisticalGroupBox.Controls.Add(this.sumButton);
+            this.statisticalGroupBox.Controls.Add(this.modeButton);
+            this.statisticalGroupBox.Controls.Add(this.minButton);
+            this.statisticalGroupBox.Controls.Add(this.maxButton);
+            this.statisticalGroupBox.Controls.Add(this.medianButton);
+            this.statisticalGroupBox.Controls.Add(this.standardDeviationButton);
+            this.statisticalGroupBox.Controls.Add(this.rangeButton);
+            this.statisticalGroupBox.Controls.Add(this.meanButton);
+            this.statisticalGroupBox.Controls.Add(this.countButton);
+            this.statisticalGroupBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statisticalGroupBox.Location = new System.Drawing.Point(6, 284);
+            this.statisticalGroupBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.statisticalGroupBox.Name = "statisticalGroupBox";
+            this.statisticalGroupBox.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.statisticalGroupBox.Size = new System.Drawing.Size(589, 294);
+            this.statisticalGroupBox.TabIndex = 2;
+            this.statisticalGroupBox.TabStop = false;
+            this.statisticalGroupBox.Text = "Statistical Calculator";
+            // 
+            // countButton
+            // 
+            this.countButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.countButton.Location = new System.Drawing.Point(28, 35);
+            this.countButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.countButton.Name = "countButton";
+            this.countButton.Size = new System.Drawing.Size(165, 73);
+            this.countButton.TabIndex = 0;
+            this.countButton.Text = "C&ount";
+            this.countButton.UseVisualStyleBackColor = false;
+            this.countButton.Click += new System.EventHandler(this.countButton_Click);
+            this.countButton.MouseLeave += new System.EventHandler(this.countButton_MouseLeave);
+            this.countButton.MouseHover += new System.EventHandler(this.countButton_MouseHover);
+            // 
+            // meanButton
+            // 
+            this.meanButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.meanButton.Location = new System.Drawing.Point(213, 35);
+            this.meanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.meanButton.Name = "meanButton";
+            this.meanButton.Size = new System.Drawing.Size(165, 73);
+            this.meanButton.TabIndex = 1;
+            this.meanButton.Text = "&Mean";
+            this.meanButton.UseVisualStyleBackColor = false;
+            this.meanButton.Click += new System.EventHandler(this.meanButton_Click);
+            this.meanButton.MouseLeave += new System.EventHandler(this.meanButton_MouseLeave);
+            this.meanButton.MouseHover += new System.EventHandler(this.meanButton_MouseHover);
+            // 
+            // rangeButton
+            // 
+            this.rangeButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.rangeButton.Location = new System.Drawing.Point(397, 35);
+            this.rangeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rangeButton.Name = "rangeButton";
+            this.rangeButton.Size = new System.Drawing.Size(165, 73);
+            this.rangeButton.TabIndex = 2;
+            this.rangeButton.Text = "&Range";
+            this.rangeButton.UseVisualStyleBackColor = false;
+            this.rangeButton.Click += new System.EventHandler(this.rangeButton_Click);
+            this.rangeButton.MouseLeave += new System.EventHandler(this.rangeButton_MouseLeave);
+            this.rangeButton.MouseHover += new System.EventHandler(this.rangeButton_MouseHover);
+            // 
+            // standardDeviationButton
+            // 
+            this.standardDeviationButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.standardDeviationButton.Location = new System.Drawing.Point(28, 116);
+            this.standardDeviationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.standardDeviationButton.Name = "standardDeviationButton";
+            this.standardDeviationButton.Size = new System.Drawing.Size(165, 73);
+            this.standardDeviationButton.TabIndex = 3;
+            this.standardDeviationButton.Text = "S&tandard Deviation";
+            this.standardDeviationButton.UseVisualStyleBackColor = false;
+            this.standardDeviationButton.Click += new System.EventHandler(this.standardDeviationButton_Click);
+            this.standardDeviationButton.MouseLeave += new System.EventHandler(this.standardDeviationButton_MouseLeave);
+            this.standardDeviationButton.MouseHover += new System.EventHandler(this.standardDeviationButton_MouseHover);
+            // 
+            // medianButton
+            // 
+            this.medianButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.medianButton.Location = new System.Drawing.Point(213, 116);
+            this.medianButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.medianButton.Name = "medianButton";
+            this.medianButton.Size = new System.Drawing.Size(165, 73);
+            this.medianButton.TabIndex = 4;
+            this.medianButton.Text = "M&edian";
+            this.medianButton.UseVisualStyleBackColor = false;
+            this.medianButton.Click += new System.EventHandler(this.medianButton_Click);
+            this.medianButton.MouseLeave += new System.EventHandler(this.medianButton_MouseLeave);
+            this.medianButton.MouseHover += new System.EventHandler(this.medianButton_MouseHover);
+            // 
+            // maxButton
+            // 
+            this.maxButton.Location = new System.Drawing.Point(397, 116);
+            this.maxButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.maxButton.Name = "maxButton";
+            this.maxButton.Size = new System.Drawing.Size(165, 73);
+            this.maxButton.TabIndex = 5;
+            this.maxButton.Text = "M&ax";
+            this.maxButton.UseVisualStyleBackColor = true;
+            this.maxButton.Click += new System.EventHandler(this.maxButton_Click);
+            this.maxButton.MouseLeave += new System.EventHandler(this.maxButton_MouseLeave);
+            this.maxButton.MouseHover += new System.EventHandler(this.maxButton_MouseHover);
+            // 
+            // minButton
+            // 
+            this.minButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.minButton.Location = new System.Drawing.Point(28, 196);
+            this.minButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.minButton.Name = "minButton";
+            this.minButton.Size = new System.Drawing.Size(165, 73);
+            this.minButton.TabIndex = 6;
+            this.minButton.Text = "M&in";
+            this.minButton.UseVisualStyleBackColor = false;
+            this.minButton.Click += new System.EventHandler(this.minButton_Click);
+            this.minButton.MouseLeave += new System.EventHandler(this.minButton_MouseLeave);
+            this.minButton.MouseHover += new System.EventHandler(this.minButton_MouseHover);
+            // 
+            // modeButton
+            // 
+            this.modeButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.modeButton.Location = new System.Drawing.Point(213, 197);
+            this.modeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.modeButton.Name = "modeButton";
+            this.modeButton.Size = new System.Drawing.Size(165, 73);
+            this.modeButton.TabIndex = 7;
+            this.modeButton.Text = "M&ode";
+            this.modeButton.UseVisualStyleBackColor = false;
+            this.modeButton.Click += new System.EventHandler(this.modeButton_Click);
+            this.modeButton.MouseLeave += new System.EventHandler(this.modeButton_MouseLeave);
+            this.modeButton.MouseHover += new System.EventHandler(this.modeButton_MouseHover);
+            // 
+            // sumButton
+            // 
+            this.sumButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.sumButton.Location = new System.Drawing.Point(397, 197);
+            this.sumButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sumButton.Name = "sumButton";
+            this.sumButton.Size = new System.Drawing.Size(165, 73);
+            this.sumButton.TabIndex = 8;
+            this.sumButton.Text = "S&um";
+            this.sumButton.UseVisualStyleBackColor = false;
+            this.sumButton.Click += new System.EventHandler(this.sumButton_Click);
+            this.sumButton.MouseLeave += new System.EventHandler(this.sumButton_MouseLeave);
+            this.sumButton.MouseHover += new System.EventHandler(this.sumButton_MouseHover);
             // 
             // displayListBox
             // 
@@ -656,6 +667,21 @@
             this.displayListBox.Name = "displayListBox";
             this.displayListBox.Size = new System.Drawing.Size(589, 184);
             this.displayListBox.TabIndex = 1;
+            // 
+            // leftPanel
+            // 
+            this.leftPanel.BackColor = System.Drawing.Color.LightGray;
+            this.leftPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.leftPanel.Controls.Add(this.displayListBox);
+            this.leftPanel.Controls.Add(this.statisticalGroupBox);
+            this.leftPanel.Controls.Add(this.applicationLabel);
+            this.leftPanel.Controls.Add(this.groupBox2);
+            this.leftPanel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leftPanel.Location = new System.Drawing.Point(14, 14);
+            this.leftPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.leftPanel.Name = "leftPanel";
+            this.leftPanel.Size = new System.Drawing.Size(598, 806);
+            this.leftPanel.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -674,39 +700,18 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Scientific Calculator";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.statisticalGroupBox.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
             this.rightPanel.ResumeLayout(false);
             this.rightPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.statisticalGroupBox.ResumeLayout(false);
             this.leftPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox statisticalGroupBox;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button sumButton;
-        private System.Windows.Forms.Button modeButton;
-        private System.Windows.Forms.Button minButton;
-        private System.Windows.Forms.Button maxButton;
-        private System.Windows.Forms.Button medianButton;
-        private System.Windows.Forms.Button standardDeviationButton;
-        private System.Windows.Forms.Button rangeButton;
-        private System.Windows.Forms.Button meanButton;
-        private System.Windows.Forms.Button countButton;
-        private System.Windows.Forms.Button factorialButton;
-        private System.Windows.Forms.Button squareButton;
-        private System.Windows.Forms.Button primeButton;
-        private System.Windows.Forms.Button reciprocalButton;
-        private System.Windows.Forms.Button sumSquaresButton;
-        private System.Windows.Forms.Button fibonacciButton;
-        private System.Windows.Forms.Label applicationLabel;
         private System.Windows.Forms.Panel rightPanel;
-        private System.Windows.Forms.Panel leftPanel;
-        private System.Windows.Forms.ListBox displayListBox;
         private System.Windows.Forms.Button displayFileButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button exitButton;
@@ -728,6 +733,26 @@
         private System.Windows.Forms.Button nineButton;
         private System.Windows.Forms.Button eightButton;
         private System.Windows.Forms.Button sevenButton;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button fibonacciButton;
+        private System.Windows.Forms.Button sumSquaresButton;
+        private System.Windows.Forms.Button primeButton;
+        private System.Windows.Forms.Button reciprocalButton;
+        private System.Windows.Forms.Button squareButton;
+        private System.Windows.Forms.Button factorialButton;
+        private System.Windows.Forms.Label applicationLabel;
+        private System.Windows.Forms.GroupBox statisticalGroupBox;
+        private System.Windows.Forms.Button sumButton;
+        private System.Windows.Forms.Button modeButton;
+        private System.Windows.Forms.Button minButton;
+        private System.Windows.Forms.Button maxButton;
+        private System.Windows.Forms.Button medianButton;
+        private System.Windows.Forms.Button standardDeviationButton;
+        private System.Windows.Forms.Button rangeButton;
+        private System.Windows.Forms.Button meanButton;
+        private System.Windows.Forms.Button countButton;
+        private System.Windows.Forms.ListBox displayListBox;
+        private System.Windows.Forms.Panel leftPanel;
     }
 }
 
