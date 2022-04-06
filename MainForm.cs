@@ -425,10 +425,16 @@ namespace CalculatorProject
                 * even 500^10 is to big to be held in a double, we have to use long for this
                 *
                 */
-                else if (Math.Abs(x) > 500 || Math.Abs(y) > 10)
+                else if (Math.Abs(x) > 500) //If the absolute value of x is greater than 500 (not between -500 and 500)
                 {
-                    //Display error message if one or both of the text boxes is/are empty
-                    DialogResult dialog = MessageBox.Show("Error: Please enter a value for 500 and y.",
+                    //Display error message if the value of x is not between -500 and 500
+                    DialogResult dialog = MessageBox.Show("Error: Please enter a value between -500 and 500 for x.",
+                                          Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (Math.Abs(y) > 10) //If the absolute value of y is greater than 10 (not between -10 and 10)
+                {
+                    //Display error message if the value of y is not between -10 and 10
+                    DialogResult dialog = MessageBox.Show("Error: Please enter a value between -10 and 10 for y.",
                                           Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
