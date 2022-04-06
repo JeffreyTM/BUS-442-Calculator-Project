@@ -279,7 +279,6 @@ namespace CalculatorProject
             }
 
             int max = int.MinValue;
-            int count = 0;
 
             //List that can store multiple modes if more than one exists
             List<int> modes = new List<int>();
@@ -307,8 +306,7 @@ namespace CalculatorProject
                     //Add the key value to the modes list
                     modes.Add(key);
                 }
-                //Increment the count
-                count++;
+                
             }
 
 
@@ -476,7 +474,11 @@ namespace CalculatorProject
          */
         private void reciprocalButton_Click(object sender, EventArgs e)
         {
+            // Clear the y textbox
+            yTextBox.Text = "";
+            // Clear the listbox
             displayListBox.Items.Clear();
+
             long.TryParse(xTextBox.Text, out long xLong);
 
             //Error Handlers
@@ -629,7 +631,9 @@ namespace CalculatorProject
          */
         private void fibonacciButton_Click(object sender, EventArgs e)
         {
-
+            // Clear the y textbox
+            yTextBox.Text = "";
+            //Clear the listbox
             displayListBox.Items.Clear();
 
             double xInt;
