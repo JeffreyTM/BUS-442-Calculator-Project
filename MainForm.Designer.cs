@@ -52,23 +52,23 @@
             this.clearButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.factorialButton = new System.Windows.Forms.Button();
-            this.squareButton = new System.Windows.Forms.Button();
-            this.reciprocalButton = new System.Windows.Forms.Button();
-            this.primeButton = new System.Windows.Forms.Button();
-            this.sumSquaresButton = new System.Windows.Forms.Button();
             this.fibonacciButton = new System.Windows.Forms.Button();
+            this.sumSquaresButton = new System.Windows.Forms.Button();
+            this.primeButton = new System.Windows.Forms.Button();
+            this.reciprocalButton = new System.Windows.Forms.Button();
+            this.squareButton = new System.Windows.Forms.Button();
+            this.factorialButton = new System.Windows.Forms.Button();
             this.applicationLabel = new System.Windows.Forms.Label();
             this.statisticalGroupBox = new System.Windows.Forms.GroupBox();
-            this.countButton = new System.Windows.Forms.Button();
-            this.meanButton = new System.Windows.Forms.Button();
-            this.rangeButton = new System.Windows.Forms.Button();
-            this.standardDeviationButton = new System.Windows.Forms.Button();
-            this.medianButton = new System.Windows.Forms.Button();
-            this.maxButton = new System.Windows.Forms.Button();
-            this.minButton = new System.Windows.Forms.Button();
-            this.modeButton = new System.Windows.Forms.Button();
             this.sumButton = new System.Windows.Forms.Button();
+            this.modeButton = new System.Windows.Forms.Button();
+            this.minButton = new System.Windows.Forms.Button();
+            this.maxButton = new System.Windows.Forms.Button();
+            this.medianButton = new System.Windows.Forms.Button();
+            this.standardDeviationButton = new System.Windows.Forms.Button();
+            this.rangeButton = new System.Windows.Forms.Button();
+            this.meanButton = new System.Windows.Forms.Button();
+            this.countButton = new System.Windows.Forms.Button();
             this.displayListBox = new System.Windows.Forms.ListBox();
             this.leftPanel = new System.Windows.Forms.Panel();
             this.rightPanel.SuspendLayout();
@@ -416,61 +416,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Scientific Calculator";
             // 
-            // factorialButton
+            // fibonacciButton
             // 
-            this.factorialButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.factorialButton.Location = new System.Drawing.Point(28, 33);
-            this.factorialButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.factorialButton.Name = "factorialButton";
-            this.factorialButton.Size = new System.Drawing.Size(165, 73);
-            this.factorialButton.TabIndex = 0;
-            this.factorialButton.Text = "x&!";
-            this.factorialButton.UseVisualStyleBackColor = false;
-            this.factorialButton.Click += new System.EventHandler(this.factorialButton_Click);
-            this.factorialButton.MouseLeave += new System.EventHandler(this.factorialButton_MouseLeave);
-            this.factorialButton.MouseHover += new System.EventHandler(this.factorialButton_MouseHover);
-            // 
-            // squareButton
-            // 
-            this.squareButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.squareButton.Location = new System.Drawing.Point(213, 33);
-            this.squareButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.squareButton.Name = "squareButton";
-            this.squareButton.Size = new System.Drawing.Size(165, 73);
-            this.squareButton.TabIndex = 1;
-            this.squareButton.Text = "x&^y";
-            this.squareButton.UseVisualStyleBackColor = false;
-            this.squareButton.Click += new System.EventHandler(this.squareButton_Click);
-            this.squareButton.MouseLeave += new System.EventHandler(this.squareButton_MouseLeave);
-            this.squareButton.MouseHover += new System.EventHandler(this.squareButton_MouseHover);
-            // 
-            // reciprocalButton
-            // 
-            this.reciprocalButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.reciprocalButton.Location = new System.Drawing.Point(397, 33);
-            this.reciprocalButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.reciprocalButton.Name = "reciprocalButton";
-            this.reciprocalButton.Size = new System.Drawing.Size(165, 73);
-            this.reciprocalButton.TabIndex = 2;
-            this.reciprocalButton.Text = "1&/x";
-            this.reciprocalButton.UseVisualStyleBackColor = false;
-            this.reciprocalButton.Click += new System.EventHandler(this.reciprocalButton_Click);
-            this.reciprocalButton.MouseLeave += new System.EventHandler(this.reciprocalButton_MouseLeave);
-            this.reciprocalButton.MouseHover += new System.EventHandler(this.reciprocalButton_MouseHover);
-            // 
-            // primeButton
-            // 
-            this.primeButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.primeButton.Location = new System.Drawing.Point(28, 123);
-            this.primeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.primeButton.Name = "primeButton";
-            this.primeButton.Size = new System.Drawing.Size(165, 73);
-            this.primeButton.TabIndex = 3;
-            this.primeButton.Text = "&Prime (x...y)";
-            this.primeButton.UseVisualStyleBackColor = false;
-            this.primeButton.Click += new System.EventHandler(this.primeButton_Click);
-            this.primeButton.MouseLeave += new System.EventHandler(this.primeButton_MouseLeave);
-            this.primeButton.MouseHover += new System.EventHandler(this.primeButton_MouseHover);
+            this.fibonacciButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.fibonacciButton.Location = new System.Drawing.Point(397, 123);
+            this.fibonacciButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.fibonacciButton.Name = "fibonacciButton";
+            this.fibonacciButton.Size = new System.Drawing.Size(165, 73);
+            this.fibonacciButton.TabIndex = 5;
+            this.fibonacciButton.Text = "&Fibonacci (x)";
+            this.fibonacciButton.UseVisualStyleBackColor = false;
+            this.fibonacciButton.Click += new System.EventHandler(this.fibonacciButton_Click);
+            this.fibonacciButton.MouseLeave += new System.EventHandler(this.fibonacciButton_MouseLeave);
+            this.fibonacciButton.MouseHover += new System.EventHandler(this.fibonacciButton_MouseHover);
             // 
             // sumSquaresButton
             // 
@@ -486,19 +444,61 @@
             this.sumSquaresButton.MouseLeave += new System.EventHandler(this.sumSquaresButton_MouseLeave);
             this.sumSquaresButton.MouseHover += new System.EventHandler(this.sumSquaresButton_MouseHover);
             // 
-            // fibonacciButton
+            // primeButton
             // 
-            this.fibonacciButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.fibonacciButton.Location = new System.Drawing.Point(397, 123);
-            this.fibonacciButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.fibonacciButton.Name = "fibonacciButton";
-            this.fibonacciButton.Size = new System.Drawing.Size(165, 73);
-            this.fibonacciButton.TabIndex = 5;
-            this.fibonacciButton.Text = "&Fibonacci (x)";
-            this.fibonacciButton.UseVisualStyleBackColor = false;
-            this.fibonacciButton.Click += new System.EventHandler(this.fibonacciButton_Click);
-            this.fibonacciButton.MouseLeave += new System.EventHandler(this.fibonacciButton_MouseLeave);
-            this.fibonacciButton.MouseHover += new System.EventHandler(this.fibonacciButton_MouseHover);
+            this.primeButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.primeButton.Location = new System.Drawing.Point(28, 123);
+            this.primeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.primeButton.Name = "primeButton";
+            this.primeButton.Size = new System.Drawing.Size(165, 73);
+            this.primeButton.TabIndex = 3;
+            this.primeButton.Text = "&Prime (x...y)";
+            this.primeButton.UseVisualStyleBackColor = false;
+            this.primeButton.Click += new System.EventHandler(this.primeButton_Click);
+            this.primeButton.MouseLeave += new System.EventHandler(this.primeButton_MouseLeave);
+            this.primeButton.MouseHover += new System.EventHandler(this.primeButton_MouseHover);
+            // 
+            // reciprocalButton
+            // 
+            this.reciprocalButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.reciprocalButton.Location = new System.Drawing.Point(397, 33);
+            this.reciprocalButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.reciprocalButton.Name = "reciprocalButton";
+            this.reciprocalButton.Size = new System.Drawing.Size(165, 73);
+            this.reciprocalButton.TabIndex = 2;
+            this.reciprocalButton.Text = "1&/x";
+            this.reciprocalButton.UseVisualStyleBackColor = false;
+            this.reciprocalButton.Click += new System.EventHandler(this.reciprocalButton_Click);
+            this.reciprocalButton.MouseLeave += new System.EventHandler(this.reciprocalButton_MouseLeave);
+            this.reciprocalButton.MouseHover += new System.EventHandler(this.reciprocalButton_MouseHover);
+            // 
+            // squareButton
+            // 
+            this.squareButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.squareButton.Location = new System.Drawing.Point(213, 33);
+            this.squareButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.squareButton.Name = "squareButton";
+            this.squareButton.Size = new System.Drawing.Size(165, 73);
+            this.squareButton.TabIndex = 1;
+            this.squareButton.Text = "x&^y";
+            this.squareButton.UseVisualStyleBackColor = false;
+            this.squareButton.Click += new System.EventHandler(this.squareButton_Click);
+            this.squareButton.MouseLeave += new System.EventHandler(this.squareButton_MouseLeave);
+            this.squareButton.MouseHover += new System.EventHandler(this.squareButton_MouseHover);
+            // 
+            // factorialButton
+            // 
+            this.factorialButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.factorialButton.Location = new System.Drawing.Point(28, 33);
+            this.factorialButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.factorialButton.Name = "factorialButton";
+            this.factorialButton.Size = new System.Drawing.Size(165, 73);
+            this.factorialButton.TabIndex = 0;
+            this.factorialButton.Text = "x&!";
+            this.factorialButton.UseVisualStyleBackColor = false;
+            this.factorialButton.Click += new System.EventHandler(this.factorialButton_Click);
+            this.factorialButton.MouseLeave += new System.EventHandler(this.factorialButton_MouseLeave);
+            this.factorialButton.MouseHover += new System.EventHandler(this.factorialButton_MouseHover);
             // 
             // applicationLabel
             // 
@@ -532,102 +532,19 @@
             this.statisticalGroupBox.TabStop = false;
             this.statisticalGroupBox.Text = "Statistical Calculator";
             // 
-            // countButton
+            // sumButton
             // 
-            this.countButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.countButton.Location = new System.Drawing.Point(28, 35);
-            this.countButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.countButton.Name = "countButton";
-            this.countButton.Size = new System.Drawing.Size(165, 73);
-            this.countButton.TabIndex = 0;
-            this.countButton.Text = "C&ount";
-            this.countButton.UseVisualStyleBackColor = false;
-            this.countButton.Click += new System.EventHandler(this.countButton_Click);
-            this.countButton.MouseLeave += new System.EventHandler(this.countButton_MouseLeave);
-            this.countButton.MouseHover += new System.EventHandler(this.countButton_MouseHover);
-            // 
-            // meanButton
-            // 
-            this.meanButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.meanButton.Location = new System.Drawing.Point(213, 35);
-            this.meanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.meanButton.Name = "meanButton";
-            this.meanButton.Size = new System.Drawing.Size(165, 73);
-            this.meanButton.TabIndex = 1;
-            this.meanButton.Text = "&Mean";
-            this.meanButton.UseVisualStyleBackColor = false;
-            this.meanButton.Click += new System.EventHandler(this.meanButton_Click);
-            this.meanButton.MouseLeave += new System.EventHandler(this.meanButton_MouseLeave);
-            this.meanButton.MouseHover += new System.EventHandler(this.meanButton_MouseHover);
-            // 
-            // rangeButton
-            // 
-            this.rangeButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.rangeButton.Location = new System.Drawing.Point(397, 35);
-            this.rangeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.rangeButton.Name = "rangeButton";
-            this.rangeButton.Size = new System.Drawing.Size(165, 73);
-            this.rangeButton.TabIndex = 2;
-            this.rangeButton.Text = "&Range";
-            this.rangeButton.UseVisualStyleBackColor = false;
-            this.rangeButton.Click += new System.EventHandler(this.rangeButton_Click);
-            this.rangeButton.MouseLeave += new System.EventHandler(this.rangeButton_MouseLeave);
-            this.rangeButton.MouseHover += new System.EventHandler(this.rangeButton_MouseHover);
-            // 
-            // standardDeviationButton
-            // 
-            this.standardDeviationButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.standardDeviationButton.Location = new System.Drawing.Point(28, 116);
-            this.standardDeviationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.standardDeviationButton.Name = "standardDeviationButton";
-            this.standardDeviationButton.Size = new System.Drawing.Size(165, 73);
-            this.standardDeviationButton.TabIndex = 3;
-            this.standardDeviationButton.Text = "S&tandard Deviation";
-            this.standardDeviationButton.UseVisualStyleBackColor = false;
-            this.standardDeviationButton.Click += new System.EventHandler(this.standardDeviationButton_Click);
-            this.standardDeviationButton.MouseLeave += new System.EventHandler(this.standardDeviationButton_MouseLeave);
-            this.standardDeviationButton.MouseHover += new System.EventHandler(this.standardDeviationButton_MouseHover);
-            // 
-            // medianButton
-            // 
-            this.medianButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.medianButton.Location = new System.Drawing.Point(213, 116);
-            this.medianButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.medianButton.Name = "medianButton";
-            this.medianButton.Size = new System.Drawing.Size(165, 73);
-            this.medianButton.TabIndex = 4;
-            this.medianButton.Text = "M&edian";
-            this.medianButton.UseVisualStyleBackColor = false;
-            this.medianButton.Click += new System.EventHandler(this.medianButton_Click);
-            this.medianButton.MouseLeave += new System.EventHandler(this.medianButton_MouseLeave);
-            this.medianButton.MouseHover += new System.EventHandler(this.medianButton_MouseHover);
-            // 
-            // maxButton
-            // 
-            this.maxButton.Location = new System.Drawing.Point(397, 116);
-            this.maxButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.maxButton.Name = "maxButton";
-            this.maxButton.Size = new System.Drawing.Size(165, 73);
-            this.maxButton.TabIndex = 5;
-            this.maxButton.Text = "M&ax";
-            this.maxButton.UseVisualStyleBackColor = true;
-            this.maxButton.Click += new System.EventHandler(this.maxButton_Click);
-            this.maxButton.MouseLeave += new System.EventHandler(this.maxButton_MouseLeave);
-            this.maxButton.MouseHover += new System.EventHandler(this.maxButton_MouseHover);
-            // 
-            // minButton
-            // 
-            this.minButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.minButton.Location = new System.Drawing.Point(28, 196);
-            this.minButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.minButton.Name = "minButton";
-            this.minButton.Size = new System.Drawing.Size(165, 73);
-            this.minButton.TabIndex = 6;
-            this.minButton.Text = "M&in";
-            this.minButton.UseVisualStyleBackColor = false;
-            this.minButton.Click += new System.EventHandler(this.minButton_Click);
-            this.minButton.MouseLeave += new System.EventHandler(this.minButton_MouseLeave);
-            this.minButton.MouseHover += new System.EventHandler(this.minButton_MouseHover);
+            this.sumButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.sumButton.Location = new System.Drawing.Point(397, 197);
+            this.sumButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sumButton.Name = "sumButton";
+            this.sumButton.Size = new System.Drawing.Size(165, 73);
+            this.sumButton.TabIndex = 8;
+            this.sumButton.Text = "S&um";
+            this.sumButton.UseVisualStyleBackColor = false;
+            this.sumButton.Click += new System.EventHandler(this.sumButton_Click);
+            this.sumButton.MouseLeave += new System.EventHandler(this.sumButton_MouseLeave);
+            this.sumButton.MouseHover += new System.EventHandler(this.sumButton_MouseHover);
             // 
             // modeButton
             // 
@@ -643,19 +560,102 @@
             this.modeButton.MouseLeave += new System.EventHandler(this.modeButton_MouseLeave);
             this.modeButton.MouseHover += new System.EventHandler(this.modeButton_MouseHover);
             // 
-            // sumButton
+            // minButton
             // 
-            this.sumButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.sumButton.Location = new System.Drawing.Point(397, 197);
-            this.sumButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sumButton.Name = "sumButton";
-            this.sumButton.Size = new System.Drawing.Size(165, 73);
-            this.sumButton.TabIndex = 8;
-            this.sumButton.Text = "S&um";
-            this.sumButton.UseVisualStyleBackColor = false;
-            this.sumButton.Click += new System.EventHandler(this.sumButton_Click);
-            this.sumButton.MouseLeave += new System.EventHandler(this.sumButton_MouseLeave);
-            this.sumButton.MouseHover += new System.EventHandler(this.sumButton_MouseHover);
+            this.minButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.minButton.Location = new System.Drawing.Point(28, 196);
+            this.minButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.minButton.Name = "minButton";
+            this.minButton.Size = new System.Drawing.Size(165, 73);
+            this.minButton.TabIndex = 6;
+            this.minButton.Text = "M&in";
+            this.minButton.UseVisualStyleBackColor = false;
+            this.minButton.Click += new System.EventHandler(this.minButton_Click);
+            this.minButton.MouseLeave += new System.EventHandler(this.minButton_MouseLeave);
+            this.minButton.MouseHover += new System.EventHandler(this.minButton_MouseHover);
+            // 
+            // maxButton
+            // 
+            this.maxButton.Location = new System.Drawing.Point(397, 116);
+            this.maxButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.maxButton.Name = "maxButton";
+            this.maxButton.Size = new System.Drawing.Size(165, 73);
+            this.maxButton.TabIndex = 5;
+            this.maxButton.Text = "M&ax";
+            this.maxButton.UseVisualStyleBackColor = true;
+            this.maxButton.Click += new System.EventHandler(this.maxButton_Click);
+            this.maxButton.MouseLeave += new System.EventHandler(this.maxButton_MouseLeave);
+            this.maxButton.MouseHover += new System.EventHandler(this.maxButton_MouseHover);
+            // 
+            // medianButton
+            // 
+            this.medianButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.medianButton.Location = new System.Drawing.Point(213, 116);
+            this.medianButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.medianButton.Name = "medianButton";
+            this.medianButton.Size = new System.Drawing.Size(165, 73);
+            this.medianButton.TabIndex = 4;
+            this.medianButton.Text = "M&edian";
+            this.medianButton.UseVisualStyleBackColor = false;
+            this.medianButton.Click += new System.EventHandler(this.medianButton_Click);
+            this.medianButton.MouseLeave += new System.EventHandler(this.medianButton_MouseLeave);
+            this.medianButton.MouseHover += new System.EventHandler(this.medianButton_MouseHover);
+            // 
+            // standardDeviationButton
+            // 
+            this.standardDeviationButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.standardDeviationButton.Location = new System.Drawing.Point(28, 116);
+            this.standardDeviationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.standardDeviationButton.Name = "standardDeviationButton";
+            this.standardDeviationButton.Size = new System.Drawing.Size(165, 73);
+            this.standardDeviationButton.TabIndex = 3;
+            this.standardDeviationButton.Text = "S&tandard Deviation";
+            this.standardDeviationButton.UseVisualStyleBackColor = false;
+            this.standardDeviationButton.Click += new System.EventHandler(this.standardDeviationButton_Click);
+            this.standardDeviationButton.MouseLeave += new System.EventHandler(this.standardDeviationButton_MouseLeave);
+            this.standardDeviationButton.MouseHover += new System.EventHandler(this.standardDeviationButton_MouseHover);
+            // 
+            // rangeButton
+            // 
+            this.rangeButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.rangeButton.Location = new System.Drawing.Point(397, 35);
+            this.rangeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rangeButton.Name = "rangeButton";
+            this.rangeButton.Size = new System.Drawing.Size(165, 73);
+            this.rangeButton.TabIndex = 2;
+            this.rangeButton.Text = "&Range";
+            this.rangeButton.UseVisualStyleBackColor = false;
+            this.rangeButton.Click += new System.EventHandler(this.rangeButton_Click);
+            this.rangeButton.MouseLeave += new System.EventHandler(this.rangeButton_MouseLeave);
+            this.rangeButton.MouseHover += new System.EventHandler(this.rangeButton_MouseHover);
+            // 
+            // meanButton
+            // 
+            this.meanButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.meanButton.Location = new System.Drawing.Point(213, 35);
+            this.meanButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.meanButton.Name = "meanButton";
+            this.meanButton.Size = new System.Drawing.Size(165, 73);
+            this.meanButton.TabIndex = 1;
+            this.meanButton.Text = "&Mean";
+            this.meanButton.UseVisualStyleBackColor = false;
+            this.meanButton.Click += new System.EventHandler(this.meanButton_Click);
+            this.meanButton.MouseLeave += new System.EventHandler(this.meanButton_MouseLeave);
+            this.meanButton.MouseHover += new System.EventHandler(this.meanButton_MouseHover);
+            // 
+            // countButton
+            // 
+            this.countButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.countButton.Location = new System.Drawing.Point(28, 35);
+            this.countButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.countButton.Name = "countButton";
+            this.countButton.Size = new System.Drawing.Size(165, 73);
+            this.countButton.TabIndex = 0;
+            this.countButton.Text = "C&ount";
+            this.countButton.UseVisualStyleBackColor = false;
+            this.countButton.Click += new System.EventHandler(this.countButton_Click);
+            this.countButton.MouseLeave += new System.EventHandler(this.countButton_MouseLeave);
+            this.countButton.MouseHover += new System.EventHandler(this.countButton_MouseHover);
             // 
             // displayListBox
             // 
@@ -685,6 +685,7 @@
             // 
             // MainForm
             // 
+            this.AcceptButton = this.displayFileButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;

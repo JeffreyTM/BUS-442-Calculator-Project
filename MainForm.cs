@@ -79,41 +79,11 @@ namespace CalculatorProject
             }
 
             //Call the Sort method to sort the list 
-            Sort(sortedList);
+            sortedList.Sort();
 
             //Close the StreamReader
             CalculatorReader.Close();
 
-        }
-
-        /*
-         *
-         * This function is written based on bubble sort methodology to sort our list
-         * from least to greatest
-         * 
-         */
-        private void Sort(List<int> sortedList)
-        {
-            //Nested for loop which goes through each value in sorted list and compares it to the values indexed after it
-            for (int i = 0; i < sortedList.Count - 1; i++)
-            {
-                for (int j = 0; j < sortedList.Count - i - 1; j++)
-                {
-                    //If the current value in the loop is greater than the next value
-                    if (sortedList[j] > sortedList[j + 1])
-                    {
-                        //Temporarily store the current value
-                        int temp = sortedList[j];
-
-                        //Set the current value to the next value
-                        sortedList[j] = sortedList[j + 1];
-
-                        //Set the next value to the temporarily stored current value
-                        sortedList[j + 1] = temp;
-                    }
-                }
-            }
-                    
         }
 
         /**
